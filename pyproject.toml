@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "biomotiflab"
+version = "0.1.0"
+description = "Transparent DNA motif discovery and held-out permutation analysis"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "pandas>=2.1", "matplotlib>=3.8", "logomaker>=0.8", "streamlit>=1.40", "requests>=2.31"]
+[project.optional-dependencies]
+test = ["pytest>=8", "psutil>=5"]
+[project.scripts]
+biomotiflab = "biomotiflab.cli:main"
+[tool.setuptools.packages.find]
+include = ["biomotiflab*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

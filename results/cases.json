@@ -1,0 +1,1968 @@
+{
+  "success": {
+    "config": {
+      "group": "main",
+      "seed": 11,
+      "mutation": 0.0,
+      "heterogeneity": 0.0,
+      "method": "adaptive",
+      "shrinkage": 40.0,
+      "seed_strategy": "enriched",
+      "n_train": 30,
+      "length": 80,
+      "width": 10,
+      "fit_seconds": 0.052897749992553145,
+      "nucleotide_f1": 1.0,
+      "exact_start": 1.0
+    },
+    "model": {
+      "pwm": [
+        [
+          0.9758064128096353,
+          0.008064533973346279,
+          0.008064534945044508,
+          0.008064518271973894
+        ],
+        [
+          0.008064516971292724,
+          0.9758063575410248,
+          0.00806459020048443,
+          0.00806453528719789
+        ],
+        [
+          0.008064555684543138,
+          0.9758063571507953,
+          0.00806454994873835,
+          0.008064537215923023
+        ],
+        [
+          0.008064588854016872,
+          0.008064569889620208,
+          0.00806451716219229,
+          0.9758063240941707
+        ],
+        [
+          0.008064518013827458,
+          0.008064536961313038,
+          0.9758063582020289,
+          0.008064586822830696
+        ],
+        [
+          0.008064536353986169,
+          0.9758063721530973,
+          0.00806455440468115,
+          0.008064537088235454
+        ],
+        [
+          0.008064554336837408,
+          0.008064552888581926,
+          0.00806454862358818,
+          0.9758063441509925
+        ],
+        [
+          0.008064535726922398,
+          0.008064568921847596,
+          0.9758063782225017,
+          0.008064517128728283
+        ],
+        [
+          0.008064516963514979,
+          0.008064536471961915,
+          0.008064552562622162,
+          0.975806394001901
+        ],
+        [
+          0.9758063767866078,
+          0.008064535479201577,
+          0.008064530060983073,
+          0.00806455767320772
+        ]
+      ],
+      "sites": [
+        {
+          "sequence_index": 0,
+          "start": 15,
+          "end": 25,
+          "strand": "-",
+          "score": 13.664762947309567,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 1,
+          "start": 35,
+          "end": 45,
+          "strand": "+",
+          "score": 13.619708088633654,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 2,
+          "start": 41,
+          "end": 51,
+          "strand": "-",
+          "score": 13.619708088633654,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 3,
+          "start": 28,
+          "end": 38,
+          "strand": "+",
+          "score": 13.629217007348936,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 4,
+          "start": 62,
+          "end": 72,
+          "strand": "-",
+          "score": 13.6311012199594,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 5,
+          "start": 23,
+          "end": 33,
+          "strand": "-",
+          "score": 13.638338483706804,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 6,
+          "start": 32,
+          "end": 42,
+          "strand": "-",
+          "score": 13.61805080842437,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 7,
+          "start": 50,
+          "end": 60,
+          "strand": "+",
+          "score": 13.6311012199594,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 8,
+          "start": 19,
+          "end": 29,
+          "strand": "-",
+          "score": 13.707348396919876,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 9,
+          "start": 0,
+          "end": 10,
+          "strand": "-",
+          "score": 13.619081368465073,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 10,
+          "start": 34,
+          "end": 44,
+          "strand": "-",
+          "score": 13.640855513782682,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 11,
+          "start": 10,
+          "end": 20,
+          "strand": "-",
+          "score": 13.61805080842437,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 12,
+          "start": 9,
+          "end": 19,
+          "strand": "+",
+          "score": 13.622801431661557,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 13,
+          "start": 53,
+          "end": 63,
+          "strand": "+",
+          "score": 13.66855898402643,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 14,
+          "start": 63,
+          "end": 73,
+          "strand": "+",
+          "score": 13.629217007348936,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 15,
+          "start": 24,
+          "end": 34,
+          "strand": "+",
+          "score": 13.638338483706804,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 16,
+          "start": 30,
+          "end": 40,
+          "strand": "-",
+          "score": 13.653334633078828,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 17,
+          "start": 57,
+          "end": 67,
+          "strand": "-",
+          "score": 13.622801431661557,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 18,
+          "start": 5,
+          "end": 15,
+          "strand": "+",
+          "score": 13.682109234614042,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 19,
+          "start": 29,
+          "end": 39,
+          "strand": "+",
+          "score": 13.624055883662185,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 20,
+          "start": 43,
+          "end": 53,
+          "strand": "-",
+          "score": 13.624055883662185,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 21,
+          "start": 65,
+          "end": 75,
+          "strand": "+",
+          "score": 13.619081368465073,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 22,
+          "start": 2,
+          "end": 12,
+          "strand": "-",
+          "score": 13.653334633078828,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 23,
+          "start": 23,
+          "end": 33,
+          "strand": "-",
+          "score": 13.640855513782682,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 24,
+          "start": 40,
+          "end": 50,
+          "strand": "-",
+          "score": 13.61805080842437,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 25,
+          "start": 41,
+          "end": 51,
+          "strand": "-",
+          "score": 13.629217007348936,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 26,
+          "start": 8,
+          "end": 18,
+          "strand": "-",
+          "score": 13.622801431661557,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 27,
+          "start": 33,
+          "end": 43,
+          "strand": "-",
+          "score": 13.6311012199594,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 28,
+          "start": 4,
+          "end": 14,
+          "strand": "-",
+          "score": 13.664762947309567,
+          "sequence": "ACCTGCTGTA"
+        },
+        {
+          "sequence_index": 29,
+          "start": 21,
+          "end": 31,
+          "strand": "+",
+          "score": 13.640855513782682,
+          "sequence": "ACCTGCTGTA"
+        }
+      ],
+      "log_likelihood": 260.44785422170503,
+      "iterations": 3,
+      "consensus": "ACCTGCTGTA",
+      "method": "adaptive",
+      "width": 10,
+      "seed": 11,
+      "n_starts": 6,
+      "seed_strategy": "enriched",
+      "shrinkage": 40.0,
+      "background": [
+        0.2485428809325562,
+        0.2514571190674438,
+        0.2514571190674438,
+        0.2485428809325562
+      ],
+      "global_background": [
+        0.2485428809325562,
+        0.2514571190674438,
+        0.2514571190674438,
+        0.2485428809325562
+      ],
+      "sequence_backgrounds": [
+        [
+          0.27411241997788727,
+          0.22588758002211273,
+          0.22588758002211273,
+          0.27411241997788727
+        ],
+        [
+          0.24542389538772333,
+          0.25457610461227664,
+          0.25457610461227664,
+          0.24542389538772333
+        ],
+        [
+          0.24542389538772333,
+          0.25457610461227664,
+          0.25457610461227664,
+          0.24542389538772333
+        ],
+        [
+          0.26181733801067414,
+          0.23818266198932583,
+          0.23818266198932583,
+          0.26181733801067414
+        ],
+        [
+          0.23722717407624794,
+          0.26277282592375206,
+          0.26277282592375206,
+          0.23722717407624794
+        ],
+        [
+          0.26591569866641185,
+          0.23408430133358812,
+          0.23408430133358812,
+          0.26591569866641185
+        ],
+        [
+          0.24952225604346104,
+          0.25047774395653893,
+          0.25047774395653893,
+          0.24952225604346104
+        ],
+        [
+          0.23722717407624794,
+          0.26277282592375206,
+          0.26277282592375206,
+          0.23722717407624794
+        ],
+        [
+          0.21673537079755942,
+          0.2832646292024406,
+          0.2832646292024406,
+          0.21673537079755942
+        ],
+        [
+          0.2536206166991988,
+          0.24637938330080125,
+          0.24637938330080125,
+          0.2536206166991988
+        ],
+        [
+          0.23312881342051023,
+          0.26687118657948977,
+          0.26687118657948977,
+          0.23312881342051023
+        ],
+        [
+          0.24952225604346104,
+          0.25047774395653893,
+          0.25047774395653893,
+          0.24952225604346104
+        ],
+        [
+          0.25771897735493643,
+          0.24228102264506354,
+          0.24228102264506354,
+          0.25771897735493643
+        ],
+        [
+          0.2249320921090348,
+          0.2750679078909652,
+          0.2750679078909652,
+          0.2249320921090348
+        ],
+        [
+          0.26181733801067414,
+          0.23818266198932583,
+          0.23818266198932583,
+          0.26181733801067414
+        ],
+        [
+          0.26591569866641185,
+          0.23408430133358812,
+          0.23408430133358812,
+          0.26591569866641185
+        ],
+        [
+          0.22903045276477252,
+          0.2709695472352275,
+          0.2709695472352275,
+          0.22903045276477252
+        ],
+        [
+          0.25771897735493643,
+          0.24228102264506354,
+          0.24228102264506354,
+          0.25771897735493643
+        ],
+        [
+          0.278210780633625,
+          0.22178921936637502,
+          0.22178921936637502,
+          0.278210780633625
+        ],
+        [
+          0.24132553473198565,
+          0.25867446526801435,
+          0.25867446526801435,
+          0.24132553473198565
+        ],
+        [
+          0.24132553473198565,
+          0.25867446526801435,
+          0.25867446526801435,
+          0.24132553473198565
+        ],
+        [
+          0.2536206166991988,
+          0.24637938330080125,
+          0.24637938330080125,
+          0.2536206166991988
+        ],
+        [
+          0.22903045276477252,
+          0.2709695472352275,
+          0.2709695472352275,
+          0.22903045276477252
+        ],
+        [
+          0.23312881342051023,
+          0.26687118657948977,
+          0.26687118657948977,
+          0.23312881342051023
+        ],
+        [
+          0.24952225604346104,
+          0.25047774395653893,
+          0.25047774395653893,
+          0.24952225604346104
+        ],
+        [
+          0.26181733801067414,
+          0.23818266198932583,
+          0.23818266198932583,
+          0.26181733801067414
+        ],
+        [
+          0.25771897735493643,
+          0.24228102264506354,
+          0.24228102264506354,
+          0.25771897735493643
+        ],
+        [
+          0.23722717407624794,
+          0.26277282592375206,
+          0.26277282592375206,
+          0.23722717407624794
+        ],
+        [
+          0.27411241997788727,
+          0.22588758002211273,
+          0.22588758002211273,
+          0.27411241997788727
+        ],
+        [
+          0.23312881342051023,
+          0.26687118657948977,
+          0.26687118657948977,
+          0.23312881342051023
+        ]
+      ],
+      "runtime_seconds": 0.0528847920068074,
+      "model": "two-strand OOPS; zero-order strand-symmetric background",
+      "coordinate_system": "zero-based, half-open, original forward sequence"
+    },
+    "test_predictions": [
+      {
+        "sequence_index": 0,
+        "start": 33,
+        "end": 43,
+        "strand": "+",
+        "score": 13.64085551378268,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 1,
+        "start": 45,
+        "end": 55,
+        "strand": "+",
+        "score": 13.653334633078828,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 2,
+        "start": 36,
+        "end": 46,
+        "strand": "+",
+        "score": 13.622801431661555,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 3,
+        "start": 21,
+        "end": 31,
+        "strand": "-",
+        "score": 13.629217007348936,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 4,
+        "start": 43,
+        "end": 53,
+        "strand": "+",
+        "score": 13.64085551378268,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 5,
+        "start": 0,
+        "end": 10,
+        "strand": "-",
+        "score": 13.619708088633654,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 6,
+        "start": 32,
+        "end": 42,
+        "strand": "-",
+        "score": 13.619708088633654,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 7,
+        "start": 32,
+        "end": 42,
+        "strand": "+",
+        "score": 13.619708088633654,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 8,
+        "start": 36,
+        "end": 46,
+        "strand": "+",
+        "score": 13.624055883662185,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 9,
+        "start": 12,
+        "end": 22,
+        "strand": "-",
+        "score": 13.61805080842437,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 10,
+        "start": 65,
+        "end": 75,
+        "strand": "-",
+        "score": 13.619081368465073,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 11,
+        "start": 69,
+        "end": 79,
+        "strand": "-",
+        "score": 13.619081368465073,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 12,
+        "start": 4,
+        "end": 14,
+        "strand": "+",
+        "score": 13.624055883662185,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 13,
+        "start": 65,
+        "end": 75,
+        "strand": "-",
+        "score": 13.686553623236664,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 14,
+        "start": 8,
+        "end": 18,
+        "strand": "+",
+        "score": 13.6311012199594,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 15,
+        "start": 3,
+        "end": 13,
+        "strand": "+",
+        "score": 13.622801431661555,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 16,
+        "start": 7,
+        "end": 17,
+        "strand": "+",
+        "score": 13.653334633078828,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 17,
+        "start": 9,
+        "end": 19,
+        "strand": "+",
+        "score": 13.668558984026427,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 18,
+        "start": 46,
+        "end": 56,
+        "strand": "+",
+        "score": 13.629217007348936,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 19,
+        "start": 23,
+        "end": 33,
+        "strand": "-",
+        "score": 13.619081368465073,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 20,
+        "start": 67,
+        "end": 77,
+        "strand": "-",
+        "score": 13.61805080842437,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 21,
+        "start": 17,
+        "end": 27,
+        "strand": "+",
+        "score": 13.638338483706804,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 22,
+        "start": 14,
+        "end": 24,
+        "strand": "+",
+        "score": 13.682109234614042,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 23,
+        "start": 31,
+        "end": 41,
+        "strand": "+",
+        "score": 13.668558984026427,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 24,
+        "start": 44,
+        "end": 54,
+        "strand": "-",
+        "score": 13.624055883662185,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 25,
+        "start": 67,
+        "end": 77,
+        "strand": "-",
+        "score": 13.757482717823429,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 26,
+        "start": 9,
+        "end": 19,
+        "strand": "-",
+        "score": 13.629217007348936,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 27,
+        "start": 23,
+        "end": 33,
+        "strand": "-",
+        "score": 13.707348396919878,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 28,
+        "start": 54,
+        "end": 64,
+        "strand": "-",
+        "score": 13.668558984026427,
+        "sequence": "ACCTGCTGTA"
+      },
+      {
+        "sequence_index": 29,
+        "start": 36,
+        "end": 46,
+        "strand": "+",
+        "score": 13.686553623236664,
+        "sequence": "ACCTGCTGTA"
+      }
+    ],
+    "test_truth": [
+      {
+        "sequence_index": 0,
+        "start": 33,
+        "end": 43,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 1,
+        "start": 45,
+        "end": 55,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 2,
+        "start": 36,
+        "end": 46,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 3,
+        "start": 21,
+        "end": 31,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 4,
+        "start": 43,
+        "end": 53,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 5,
+        "start": 0,
+        "end": 10,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 6,
+        "start": 32,
+        "end": 42,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 7,
+        "start": 32,
+        "end": 42,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 8,
+        "start": 36,
+        "end": 46,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 9,
+        "start": 12,
+        "end": 22,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 10,
+        "start": 65,
+        "end": 75,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 11,
+        "start": 69,
+        "end": 79,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 12,
+        "start": 4,
+        "end": 14,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 13,
+        "start": 65,
+        "end": 75,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 14,
+        "start": 8,
+        "end": 18,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 15,
+        "start": 3,
+        "end": 13,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 16,
+        "start": 7,
+        "end": 17,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 17,
+        "start": 9,
+        "end": 19,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 18,
+        "start": 46,
+        "end": 56,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 19,
+        "start": 23,
+        "end": 33,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 20,
+        "start": 67,
+        "end": 77,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 21,
+        "start": 17,
+        "end": 27,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 22,
+        "start": 14,
+        "end": 24,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 23,
+        "start": 31,
+        "end": 41,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 24,
+        "start": 44,
+        "end": 54,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 25,
+        "start": 67,
+        "end": 77,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 26,
+        "start": 9,
+        "end": 19,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 27,
+        "start": 23,
+        "end": 33,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 28,
+        "start": 54,
+        "end": 64,
+        "strand": "+",
+        "sequence": "TACAGCAGGT"
+      },
+      {
+        "sequence_index": 29,
+        "start": 36,
+        "end": 46,
+        "strand": "-",
+        "sequence": "TACAGCAGGT"
+      }
+    ]
+  },
+  "failure": {
+    "config": {
+      "group": "main",
+      "seed": 22,
+      "mutation": 0.3,
+      "heterogeneity": 0.0,
+      "method": "adaptive",
+      "shrinkage": 40.0,
+      "seed_strategy": "enriched",
+      "n_train": 30,
+      "length": 80,
+      "width": 10,
+      "fit_seconds": 0.5069425829860847,
+      "nucleotide_f1": 0.1966666666666667,
+      "exact_start": 0.0
+    },
+    "model": {
+      "pwm": [
+        [
+          0.15844630270561624,
+          0.6689608017435312,
+          0.034571314304772935,
+          0.13802158124607963
+        ],
+        [
+          0.3461874167530822,
+          0.5806369501606423,
+          0.050172386571966564,
+          0.02300324651430895
+        ],
+        [
+          0.010654907408707247,
+          0.01404353000003421,
+          0.18019039868867787,
+          0.7951111639025806
+        ],
+        [
+          0.2879514829374487,
+          0.13684808933580864,
+          0.37803145326631604,
+          0.19716897446042655
+        ],
+        [
+          0.015406611709093455,
+          0.7698984290033397,
+          0.08235780304059986,
+          0.13233715624696696
+        ],
+        [
+          0.012918765832772716,
+          0.19205227469325245,
+          0.011665671975167786,
+          0.783363287498807
+        ],
+        [
+          0.1759758798158752,
+          0.04417293924648477,
+          0.1646651008225447,
+          0.6151860801150953
+        ],
+        [
+          0.01154348503109693,
+          0.02071206851364346,
+          0.4998907392631709,
+          0.46785370719208874
+        ],
+        [
+          0.5114311838748873,
+          0.03482219640195688,
+          0.060869240488943537,
+          0.3928773792342123
+        ],
+        [
+          0.3781634160706325,
+          0.017269592532857835,
+          0.22931809214708881,
+          0.37524889924942084
+        ]
+      ],
+      "sites": [
+        {
+          "sequence_index": 0,
+          "start": 17,
+          "end": 27,
+          "strand": "-",
+          "score": 6.371559130237252,
+          "sequence": "CATCCTTTAG"
+        },
+        {
+          "sequence_index": 1,
+          "start": 33,
+          "end": 43,
+          "strand": "+",
+          "score": 5.589362660148885,
+          "sequence": "CCTGCTCGAG"
+        },
+        {
+          "sequence_index": 2,
+          "start": 30,
+          "end": 40,
+          "strand": "-",
+          "score": 5.102661037602066,
+          "sequence": "CCTCCCTGAG"
+        },
+        {
+          "sequence_index": 3,
+          "start": 23,
+          "end": 33,
+          "strand": "-",
+          "score": 6.889518062597446,
+          "sequence": "TCTTCTTTAA"
+        },
+        {
+          "sequence_index": 4,
+          "start": 69,
+          "end": 79,
+          "strand": "-",
+          "score": 5.025220145681987,
+          "sequence": "TATGCTGTTT"
+        },
+        {
+          "sequence_index": 5,
+          "start": 41,
+          "end": 51,
+          "strand": "-",
+          "score": 5.107505344554012,
+          "sequence": "CATCTTTGAT"
+        },
+        {
+          "sequence_index": 6,
+          "start": 63,
+          "end": 73,
+          "strand": "+",
+          "score": 7.046505317485538,
+          "sequence": "CCTGCTGTAA"
+        },
+        {
+          "sequence_index": 7,
+          "start": 22,
+          "end": 32,
+          "strand": "-",
+          "score": 7.120065040958926,
+          "sequence": "CCTGCTGGAT"
+        },
+        {
+          "sequence_index": 8,
+          "start": 70,
+          "end": 80,
+          "strand": "+",
+          "score": 6.575592129548994,
+          "sequence": "CCGACTTTAA"
+        },
+        {
+          "sequence_index": 9,
+          "start": 19,
+          "end": 29,
+          "strand": "-",
+          "score": 7.942423260799232,
+          "sequence": "CCTTCTTGAT"
+        },
+        {
+          "sequence_index": 10,
+          "start": 4,
+          "end": 14,
+          "strand": "-",
+          "score": 3.6646663639741313,
+          "sequence": "CTTGCTGTAT"
+        },
+        {
+          "sequence_index": 11,
+          "start": 61,
+          "end": 71,
+          "strand": "-",
+          "score": 5.183809559309454,
+          "sequence": "AATGCTATTT"
+        },
+        {
+          "sequence_index": 12,
+          "start": 25,
+          "end": 35,
+          "strand": "+",
+          "score": 4.619451969666945,
+          "sequence": "GCTGCTTGTG"
+        },
+        {
+          "sequence_index": 13,
+          "start": 0,
+          "end": 10,
+          "strand": "-",
+          "score": 6.8436045852873635,
+          "sequence": "CCTACTATTA"
+        },
+        {
+          "sequence_index": 14,
+          "start": 46,
+          "end": 56,
+          "strand": "+",
+          "score": 5.068124738449576,
+          "sequence": "TCGGCTTGTT"
+        },
+        {
+          "sequence_index": 15,
+          "start": 19,
+          "end": 29,
+          "strand": "-",
+          "score": 3.337079782314408,
+          "sequence": "ACTGTCTTTT"
+        },
+        {
+          "sequence_index": 16,
+          "start": 60,
+          "end": 70,
+          "strand": "+",
+          "score": 4.506304639678421,
+          "sequence": "CCTATTATTG"
+        },
+        {
+          "sequence_index": 17,
+          "start": 54,
+          "end": 64,
+          "strand": "-",
+          "score": 6.060639840684377,
+          "sequence": "AATGCTTGTA"
+        },
+        {
+          "sequence_index": 18,
+          "start": 13,
+          "end": 23,
+          "strand": "+",
+          "score": 7.037712035013213,
+          "sequence": "CATTCTTGTT"
+        },
+        {
+          "sequence_index": 19,
+          "start": 46,
+          "end": 56,
+          "strand": "+",
+          "score": 5.377010523919743,
+          "sequence": "CAGCCTTGAA"
+        },
+        {
+          "sequence_index": 20,
+          "start": 69,
+          "end": 79,
+          "strand": "-",
+          "score": 5.060942793009611,
+          "sequence": "CCTAGTTTTG"
+        },
+        {
+          "sequence_index": 21,
+          "start": 44,
+          "end": 54,
+          "strand": "-",
+          "score": 5.717326984955243,
+          "sequence": "CATACCTGAG"
+        },
+        {
+          "sequence_index": 22,
+          "start": 23,
+          "end": 33,
+          "strand": "+",
+          "score": 4.925939826793601,
+          "sequence": "CCTGGTAGAA"
+        },
+        {
+          "sequence_index": 23,
+          "start": 34,
+          "end": 44,
+          "strand": "-",
+          "score": 5.880067348827788,
+          "sequence": "CATTCTGGAA"
+        },
+        {
+          "sequence_index": 24,
+          "start": 21,
+          "end": 31,
+          "strand": "-",
+          "score": 3.9707294082608935,
+          "sequence": "CGGACTTGTT"
+        },
+        {
+          "sequence_index": 25,
+          "start": 69,
+          "end": 79,
+          "strand": "-",
+          "score": 4.469359957649249,
+          "sequence": "CAGACCTGTA"
+        },
+        {
+          "sequence_index": 26,
+          "start": 36,
+          "end": 46,
+          "strand": "-",
+          "score": 6.3015164686543095,
+          "sequence": "CCTACCTTTA"
+        },
+        {
+          "sequence_index": 27,
+          "start": 6,
+          "end": 16,
+          "strand": "-",
+          "score": 6.2102472141888185,
+          "sequence": "CCTGCTTTGT"
+        },
+        {
+          "sequence_index": 28,
+          "start": 2,
+          "end": 12,
+          "strand": "-",
+          "score": 6.958169581947516,
+          "sequence": "ACTGCTTGAA"
+        },
+        {
+          "sequence_index": 29,
+          "start": 64,
+          "end": 74,
+          "strand": "+",
+          "score": 6.228710906071326,
+          "sequence": "CCTACCTTTT"
+        }
+      ],
+      "log_likelihood": 31.461675398666195,
+      "iterations": 50,
+      "consensus": "CCTGCTTGAA",
+      "method": "adaptive",
+      "width": 10,
+      "seed": 22,
+      "n_starts": 6,
+      "seed_strategy": "enriched",
+      "shrinkage": 40.0,
+      "background": [
+        0.2458368026644463,
+        0.2541631973355537,
+        0.2541631973355537,
+        0.2458368026644463
+      ],
+      "global_background": [
+        0.2458368026644463,
+        0.2541631973355537,
+        0.2541631973355537,
+        0.2458368026644463
+      ],
+      "sequence_backgrounds": [
+        [
+          0.24043829595555616,
+          0.25956170404444384,
+          0.25956170404444384,
+          0.24043829595555616
+        ],
+        [
+          0.26912682054572007,
+          0.2308731794542799,
+          0.2308731794542799,
+          0.26912682054572007
+        ],
+        [
+          0.22404485333260535,
+          0.2759551466673947,
+          0.2759551466673947,
+          0.22404485333260535
+        ],
+        [
+          0.21994649267686764,
+          0.2800535073231324,
+          0.2800535073231324,
+          0.21994649267686764
+        ],
+        [
+          0.22814321398834303,
+          0.27185678601165697,
+          0.27185678601165697,
+          0.22814321398834303
+        ],
+        [
+          0.24863501726703158,
+          0.2513649827329684,
+          0.2513649827329684,
+          0.24863501726703158
+        ],
+        [
+          0.2732251812014578,
+          0.2267748187985422,
+          0.2267748187985422,
+          0.2732251812014578
+        ],
+        [
+          0.256831738578507,
+          0.24316826142149303,
+          0.24316826142149303,
+          0.256831738578507
+        ],
+        [
+          0.24863501726703158,
+          0.2513649827329684,
+          0.2513649827329684,
+          0.24863501726703158
+        ],
+        [
+          0.22814321398834303,
+          0.27185678601165697,
+          0.27185678601165697,
+          0.22814321398834303
+        ],
+        [
+          0.26502845988998236,
+          0.2349715401100176,
+          0.2349715401100176,
+          0.26502845988998236
+        ],
+        [
+          0.23633993529981845,
+          0.26366006470018155,
+          0.26366006470018155,
+          0.23633993529981845
+        ],
+        [
+          0.24453665661129387,
+          0.25546334338870613,
+          0.25546334338870613,
+          0.24453665661129387
+        ],
+        [
+          0.23224157464408074,
+          0.26775842535591926,
+          0.26775842535591926,
+          0.23224157464408074
+        ],
+        [
+          0.23633993529981845,
+          0.26366006470018155,
+          0.26366006470018155,
+          0.23633993529981845
+        ],
+        [
+          0.256831738578507,
+          0.24316826142149303,
+          0.24316826142149303,
+          0.256831738578507
+        ],
+        [
+          0.23633993529981845,
+          0.26366006470018155,
+          0.26366006470018155,
+          0.23633993529981845
+        ],
+        [
+          0.256831738578507,
+          0.24316826142149303,
+          0.24316826142149303,
+          0.256831738578507
+        ],
+        [
+          0.24453665661129387,
+          0.25546334338870613,
+          0.25546334338870613,
+          0.24453665661129387
+        ],
+        [
+          0.24043829595555616,
+          0.25956170404444384,
+          0.25956170404444384,
+          0.24043829595555616
+        ],
+        [
+          0.24863501726703158,
+          0.2513649827329684,
+          0.2513649827329684,
+          0.24863501726703158
+        ],
+        [
+          0.23224157464408074,
+          0.26775842535591926,
+          0.26775842535591926,
+          0.23224157464408074
+        ],
+        [
+          0.23224157464408074,
+          0.26775842535591926,
+          0.26775842535591926,
+          0.23224157464408074
+        ],
+        [
+          0.2527333779227693,
+          0.24726662207723074,
+          0.24726662207723074,
+          0.2527333779227693
+        ],
+        [
+          0.2773235418571955,
+          0.2226764581428045,
+          0.2226764581428045,
+          0.2773235418571955
+        ],
+        [
+          0.23224157464408074,
+          0.26775842535591926,
+          0.26775842535591926,
+          0.23224157464408074
+        ],
+        [
+          0.2609300992342447,
+          0.23906990076575532,
+          0.23906990076575532,
+          0.2609300992342447
+        ],
+        [
+          0.23224157464408074,
+          0.26775842535591926,
+          0.26775842535591926,
+          0.23224157464408074
+        ],
+        [
+          0.24863501726703158,
+          0.2513649827329684,
+          0.2513649827329684,
+          0.24863501726703158
+        ],
+        [
+          0.2732251812014578,
+          0.2267748187985422,
+          0.2267748187985422,
+          0.2732251812014578
+        ]
+      ],
+      "runtime_seconds": 0.5069230829831213,
+      "model": "two-strand OOPS; zero-order strand-symmetric background",
+      "coordinate_system": "zero-based, half-open, original forward sequence"
+    },
+    "test_predictions": [
+      {
+        "sequence_index": 0,
+        "start": 18,
+        "end": 28,
+        "strand": "+",
+        "score": 3.8657964902678077,
+        "sequence": "TCTACTTTCT"
+      },
+      {
+        "sequence_index": 1,
+        "start": 5,
+        "end": 15,
+        "strand": "+",
+        "score": 6.446853292786893,
+        "sequence": "CATGCTATAA"
+      },
+      {
+        "sequence_index": 2,
+        "start": 56,
+        "end": 66,
+        "strand": "-",
+        "score": 2.9206382600073546,
+        "sequence": "CCGGCTATCA"
+      },
+      {
+        "sequence_index": 3,
+        "start": 10,
+        "end": 20,
+        "strand": "+",
+        "score": 3.7182313554822572,
+        "sequence": "GCTGCTGGTT"
+      },
+      {
+        "sequence_index": 4,
+        "start": 29,
+        "end": 39,
+        "strand": "-",
+        "score": 5.525210890056468,
+        "sequence": "CCTCCCTGTT"
+      },
+      {
+        "sequence_index": 5,
+        "start": 38,
+        "end": 48,
+        "strand": "-",
+        "score": 3.508641357316951,
+        "sequence": "TATGTTAGAT"
+      },
+      {
+        "sequence_index": 6,
+        "start": 58,
+        "end": 68,
+        "strand": "+",
+        "score": 5.5313860535031,
+        "sequence": "CCTCCTGGAG"
+      },
+      {
+        "sequence_index": 7,
+        "start": 58,
+        "end": 68,
+        "strand": "-",
+        "score": 2.0234720825660375,
+        "sequence": "ACGTCCGTAT"
+      },
+      {
+        "sequence_index": 8,
+        "start": 54,
+        "end": 64,
+        "strand": "+",
+        "score": 6.844248276522157,
+        "sequence": "CCTGCTATTT"
+      },
+      {
+        "sequence_index": 9,
+        "start": 2,
+        "end": 12,
+        "strand": "+",
+        "score": 1.336398169463529,
+        "sequence": "GGTACCTGAA"
+      },
+      {
+        "sequence_index": 10,
+        "start": 39,
+        "end": 49,
+        "strand": "+",
+        "score": 4.366246226776491,
+        "sequence": "CCTGGTGGTT"
+      },
+      {
+        "sequence_index": 11,
+        "start": 64,
+        "end": 74,
+        "strand": "-",
+        "score": 3.0006126651254905,
+        "sequence": "CCTAGTCGTA"
+      },
+      {
+        "sequence_index": 12,
+        "start": 62,
+        "end": 72,
+        "strand": "-",
+        "score": 2.5766213932054436,
+        "sequence": "CCAGTTTGAA"
+      },
+      {
+        "sequence_index": 13,
+        "start": 0,
+        "end": 10,
+        "strand": "+",
+        "score": 1.9840022965975734,
+        "sequence": "AAGAGTTGAG"
+      },
+      {
+        "sequence_index": 14,
+        "start": 5,
+        "end": 15,
+        "strand": "+",
+        "score": 6.552851546001326,
+        "sequence": "CATGCTGGAA"
+      },
+      {
+        "sequence_index": 15,
+        "start": 35,
+        "end": 45,
+        "strand": "-",
+        "score": 5.2396657590248,
+        "sequence": "CATGGTTGTT"
+      },
+      {
+        "sequence_index": 16,
+        "start": 26,
+        "end": 36,
+        "strand": "+",
+        "score": 3.176426151282855,
+        "sequence": "CATCATTGAA"
+      },
+      {
+        "sequence_index": 17,
+        "start": 39,
+        "end": 49,
+        "strand": "+",
+        "score": 3.412475264394025,
+        "sequence": "CATGCTTATA"
+      },
+      {
+        "sequence_index": 18,
+        "start": 60,
+        "end": 70,
+        "strand": "-",
+        "score": 3.468586291629428,
+        "sequence": "CATGATTTTA"
+      },
+      {
+        "sequence_index": 19,
+        "start": 5,
+        "end": 15,
+        "strand": "+",
+        "score": 6.054093959816115,
+        "sequence": "CCGTCTTTAT"
+      },
+      {
+        "sequence_index": 20,
+        "start": 64,
+        "end": 74,
+        "strand": "-",
+        "score": 3.900532147869678,
+        "sequence": "TATATTTGTT"
+      },
+      {
+        "sequence_index": 21,
+        "start": 50,
+        "end": 60,
+        "strand": "+",
+        "score": 5.279790064303211,
+        "sequence": "CAGGCTAGAA"
+      },
+      {
+        "sequence_index": 22,
+        "start": 17,
+        "end": 27,
+        "strand": "+",
+        "score": 2.957945957715062,
+        "sequence": "CAGATCTGAA"
+      },
+      {
+        "sequence_index": 23,
+        "start": 57,
+        "end": 67,
+        "strand": "+",
+        "score": 4.362935044316799,
+        "sequence": "TAGGCTTGTT"
+      },
+      {
+        "sequence_index": 24,
+        "start": 13,
+        "end": 23,
+        "strand": "+",
+        "score": 3.585181496119178,
+        "sequence": "AATGGTTTAG"
+      },
+      {
+        "sequence_index": 25,
+        "start": 30,
+        "end": 40,
+        "strand": "+",
+        "score": 0.2342191433682984,
+        "sequence": "CCGGCGTTGT"
+      },
+      {
+        "sequence_index": 26,
+        "start": 33,
+        "end": 43,
+        "strand": "-",
+        "score": 4.431419118506024,
+        "sequence": "AATCCTATAT"
+      },
+      {
+        "sequence_index": 27,
+        "start": 33,
+        "end": 43,
+        "strand": "-",
+        "score": 6.856399477438916,
+        "sequence": "CATACTTGTT"
+      },
+      {
+        "sequence_index": 28,
+        "start": 69,
+        "end": 79,
+        "strand": "+",
+        "score": 1.6015325049570004,
+        "sequence": "TATGCTCGGT"
+      },
+      {
+        "sequence_index": 29,
+        "start": 46,
+        "end": 56,
+        "strand": "+",
+        "score": 2.0987070328824786,
+        "sequence": "CTGACTATAT"
+      }
+    ],
+    "test_truth": [
+      {
+        "sequence_index": 0,
+        "start": 21,
+        "end": 31,
+        "strand": "-",
+        "sequence": "GACAGAAAGT"
+      },
+      {
+        "sequence_index": 1,
+        "start": 4,
+        "end": 14,
+        "strand": "-",
+        "sequence": "TATAGCATGT"
+      },
+      {
+        "sequence_index": 2,
+        "start": 57,
+        "end": 67,
+        "strand": "+",
+        "sequence": "GATAGCCGGA"
+      },
+      {
+        "sequence_index": 3,
+        "start": 69,
+        "end": 79,
+        "strand": "-",
+        "sequence": "CACTGAAACT"
+      },
+      {
+        "sequence_index": 4,
+        "start": 55,
+        "end": 65,
+        "strand": "+",
+        "sequence": "TACAGCGGGT"
+      },
+      {
+        "sequence_index": 5,
+        "start": 61,
+        "end": 71,
+        "strand": "-",
+        "sequence": "AGTTGCGGTG"
+      },
+      {
+        "sequence_index": 6,
+        "start": 57,
+        "end": 67,
+        "strand": "-",
+        "sequence": "TCCAGGAGGT"
+      },
+      {
+        "sequence_index": 7,
+        "start": 25,
+        "end": 35,
+        "strand": "-",
+        "sequence": "AATAGCGGGT"
+      },
+      {
+        "sequence_index": 8,
+        "start": 53,
+        "end": 63,
+        "strand": "-",
+        "sequence": "AATAGCAGGT"
+      },
+      {
+        "sequence_index": 9,
+        "start": 5,
+        "end": 15,
+        "strand": "-",
+        "sequence": "AACTTCAGGT"
+      },
+      {
+        "sequence_index": 10,
+        "start": 22,
+        "end": 32,
+        "strand": "+",
+        "sequence": "TCCTCCGGAT"
+      },
+      {
+        "sequence_index": 11,
+        "start": 33,
+        "end": 43,
+        "strand": "+",
+        "sequence": "TAATGCTTGC"
+      },
+      {
+        "sequence_index": 12,
+        "start": 26,
+        "end": 36,
+        "strand": "+",
+        "sequence": "TACGCCCGGT"
+      },
+      {
+        "sequence_index": 13,
+        "start": 14,
+        "end": 24,
+        "strand": "-",
+        "sequence": "TCCAGGTTGT"
+      },
+      {
+        "sequence_index": 14,
+        "start": 59,
+        "end": 69,
+        "strand": "-",
+        "sequence": "TGCTGCAGTT"
+      },
+      {
+        "sequence_index": 15,
+        "start": 68,
+        "end": 78,
+        "strand": "+",
+        "sequence": "GACATCTGGT"
+      },
+      {
+        "sequence_index": 16,
+        "start": 53,
+        "end": 63,
+        "strand": "-",
+        "sequence": "CCCAAGTGGT"
+      },
+      {
+        "sequence_index": 17,
+        "start": 8,
+        "end": 18,
+        "strand": "-",
+        "sequence": "CACAGCACGT"
+      },
+      {
+        "sequence_index": 18,
+        "start": 26,
+        "end": 36,
+        "strand": "+",
+        "sequence": "TCGAGAACAT"
+      },
+      {
+        "sequence_index": 19,
+        "start": 31,
+        "end": 41,
+        "strand": "+",
+        "sequence": "TACTGCAGGT"
+      },
+      {
+        "sequence_index": 20,
+        "start": 49,
+        "end": 59,
+        "strand": "-",
+        "sequence": "CACACCGAAT"
+      },
+      {
+        "sequence_index": 21,
+        "start": 22,
+        "end": 32,
+        "strand": "-",
+        "sequence": "TTCAGCCGGC"
+      },
+      {
+        "sequence_index": 22,
+        "start": 29,
+        "end": 39,
+        "strand": "-",
+        "sequence": "GATGGCTGGT"
+      },
+      {
+        "sequence_index": 23,
+        "start": 70,
+        "end": 80,
+        "strand": "+",
+        "sequence": "TACAACGGAA"
+      },
+      {
+        "sequence_index": 24,
+        "start": 5,
+        "end": 15,
+        "strand": "-",
+        "sequence": "TTCAGCCTGT"
+      },
+      {
+        "sequence_index": 25,
+        "start": 50,
+        "end": 60,
+        "strand": "-",
+        "sequence": "ACCAGGGGGT"
+      },
+      {
+        "sequence_index": 26,
+        "start": 58,
+        "end": 68,
+        "strand": "+",
+        "sequence": "TACGGCAGAG"
+      },
+      {
+        "sequence_index": 27,
+        "start": 30,
+        "end": 40,
+        "strand": "+",
+        "sequence": "TACAACAAGT"
+      },
+      {
+        "sequence_index": 28,
+        "start": 42,
+        "end": 52,
+        "strand": "+",
+        "sequence": "TTCAACAGTT"
+      },
+      {
+        "sequence_index": 29,
+        "start": 58,
+        "end": 68,
+        "strand": "+",
+        "sequence": "TACAGGTAAT"
+      }
+    ]
+  }
+}

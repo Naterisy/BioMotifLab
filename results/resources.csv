@@ -1,0 +1,5 @@
+method,n,length,seed,width,mutation,heterogeneity,starts,max_iterations,fit_seconds,baseline_rss_mb,peak_rss_mb,peak_above_baseline_mb,metric,python,platform
+kmer,30,80,11,10,0.15,1.0,6,50,0.0087730830127839,51.09375,53.140625,2.046875,fresh subprocess ru_maxrss; includes interpreter and libraries; high-water difference is not total allocation,3.13.0,darwin
+uniform,30,80,11,10,0.15,1.0,6,50,0.5266170000249986,52.046875,55.1875,3.140625,fresh subprocess ru_maxrss; includes interpreter and libraries; high-water difference is not total allocation,3.13.0,darwin
+global,30,80,11,10,0.15,1.0,6,50,0.5091842499969061,52.828125,55.59375,2.765625,fresh subprocess ru_maxrss; includes interpreter and libraries; high-water difference is not total allocation,3.13.0,darwin
+adaptive,30,80,11,10,0.15,1.0,6,50,0.3664479579892941,52.140625,55.03125,2.890625,fresh subprocess ru_maxrss; includes interpreter and libraries; high-water difference is not total allocation,3.13.0,darwin

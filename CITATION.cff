@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the software and relevant original algorithms; this is an educational research implementation."
+title: "BioMotifLab: interpretable DNA motif discovery under heterogeneous sequence backgrounds"
+version: 0.1.0
+date-released: 2026-11-16
+license: MIT
+authors:
+  - name: "BioMotifLab contributors"

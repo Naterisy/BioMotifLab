@@ -1,0 +1,57 @@
+{
+  "retrieved_on": "2026-11-16",
+  "datasets": [
+    {
+      "id": "meme-crp0",
+      "file": "crp.fasta",
+      "url": "https://meme-suite.org/meme-software/meme_example_inputs/crp0.s",
+      "sha256": "dc81a5200ba8bbcb4f12d6ae1dc073f9f3ebeba26e43833bd43478c151972098",
+      "bytes": 2106,
+      "sequence_count": 18,
+      "sequence_lengths": [
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105,
+        105
+      ],
+      "total_bases": 1890,
+      "organism": "Escherichia coli (CRP example)",
+      "role": "real-sequence motif discovery case study; no validated site coordinate labels imported",
+      "license": "MEME educational/research/non-profit permission; not MIT; download only in repository",
+      "license_url": "https://meme-suite.org/meme/doc/copyright.html",
+      "source_documentation": "https://meme-suite.org/meme/doc/meme.html",
+      "upstream_historical_reference": "10.1002/prot.340070105",
+      "coordinate_caution": "Numbers in original FASTA headers are preserved but are not used as ground-truth coordinates."
+    },
+    {
+      "id": "JASPAR-MA0139.1",
+      "file": "MA0139.1.json",
+      "url": "https://jaspar.elixir.no/api/v1/matrix/MA0139.1/",
+      "sha256": "992b916910ae2701f85ce0d6926e436099cc2d4e4d827cc67fec72726770af51",
+      "canonical_pfm_sha256": "0083d788dc856815962516190f51fe525d53c5789fd31c3c8cd7d862d783df96",
+      "role": "independent known CTCF PFM example; not CRP reference or a real DNA sequence dataset",
+      "organism": "Homo sapiens",
+      "motif": "CTCF",
+      "width": 19,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "JASPAR contributors; JASPAR 2026, doi:10.1093/nar/gkaf1209; original profile PMID 17512414",
+      "source_documentation": "https://jaspar.elixir.no/",
+      "version_note": "Pinned matrix MA0139.1; not asserted to be the latest CTCF version."
+    }
+  ]
+}

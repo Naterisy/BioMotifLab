@@ -1,0 +1,33 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "n_train": 30,
+  "n_test": 30,
+  "length": 80,
+  "width": 10,
+  "starts": 6,
+  "iterations": 50,
+  "mutation": [
+    0.0,
+    0.15,
+    0.3
+  ],
+  "heterogeneity": [
+    0.0,
+    1.0
+  ],
+  "methods": [
+    "kmer",
+    "uniform",
+    "global",
+    "adaptive"
+  ],
+  "significance_shuffles": 199,
+  "split": "train seed s; test seed s+10000; independent generation",
+  "resource_metric": "process high-water RSS, macOS bytes / Linux KiB; not incremental method allocation"
+}

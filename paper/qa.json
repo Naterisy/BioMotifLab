@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-16",
+  "body_han_characters_including_headings": 8921,
+  "pdf_pages": 25,
+  "references": 15,
+  "toc_verified_against_pdf": true,
+  "private_public_body_pngs_identical": true,
+  "public_identity_scan_passed": true,
+  "format_basis": "https://xjzz.fzu.edu.cn/info/1083/3979.htm",
+  "official_word_template_obtained": false,
+  "pdf_font_substitution": "Songti SC / STHeiti for 宋体 / 黑体",
+  "source_data_audit": "Independent reviewer verified main, ablation, classification, real, resources and post-hoc panel results against raw files",
+  "visual_qa": "Passed: all 25 pages inspected; pages 1–13 by document author and pages 14–25 by independent reviewer. Final rerender changed only architecture page 9, which was reinspected; all other page PNGs were byte-identical. Private cover inspected and body pages byte-identical to public version.",
+  "layout_notes": "Chapter/section ends may leave whitespace; no clipping, overlap or missing glyphs."
+}
