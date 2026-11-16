@@ -9,3 +9,5 @@
 排版依据与未获取官方Word模板的限制见`docs/fzu_format.md`。DOCX保留宋体/黑体样式；当前PDF通过bundled LibreOffice使用Songti SC/STHeiti代替本机缺少的Windows字体，已经渲染检查。目录页码与固定PDF一致，编辑DOCX后需要重新核对。
 
 提交用带身份封面的副本独立保存，不属于此公开仓库。课程正式名称为用户确认的《医学人工智能导论》，项目按生物计算研究任务实施。
+
+英文版文件与语言要求说明见 [README_English.md](README_English.md)。原中文文件保留不变。

@@ -1,0 +1,113 @@
+{
+  "version": "English manuscript, 2026-11-16",
+  "language": "English",
+  "main_narrative_words": 5577,
+  "word_count_rule": "Regex \\b[A-Za-z]+(?:[-'][A-Za-z]+)*\\b on main prose and headings, with insertion-marker lines removed; excludes abstract, references, tables, captions added during layout, and appendices.",
+  "pdf_pages": 28,
+  "references": 17,
+  "editable_word_equations": true,
+  "docx_visible_text_cjk_characters": 0,
+  "pdf_extracted_text_cjk_characters": 0,
+  "source_cjk_characters": 0,
+  "unresolved_docx_insertion_markers": 0,
+  "public_student_identity_scan": "passed; supplied name and student number absent from public visible text",
+  "render_engine": "bundled LibreOffice headless through documents render_docx.py",
+  "visual_review": {
+    "status": "passed",
+    "all_public_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "review_split": "document agent pages 1-14; independent research agent pages 15-28",
+    "final_changed_pages_rechecked": [
+      7,
+      8,
+      18,
+      19
+    ],
+    "resolved_issues": [
+      "Structured native math subscripts render legibly",
+      "Table 6-1 header Rate no longer splits letters",
+      "Figure 6-2 caption includes sequence length"
+    ],
+    "private_cover_reviewed": true,
+    "private_and_public_body_page_images_identical": true,
+    "private_body_pages_compared": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "table_of_contents_matches_delivered_pagination": true
+  },
+  "scientific_review": "Independent read-only comparison of prose, abstract, formulas, and five result tables with code and recorded results passed. Negative results and exploratory scope retained.",
+  "limitations": [
+    "All-English version does not establish compliance with the original 5000-Chinese-character criterion or bilingual-abstract guidance.",
+    "Official Word template not obtained; verified published formatting guidance adapted.",
+    "English course and college names are descriptive translations.",
+    "No external MEME/STREME benchmark or labeled real-data localization evaluation was completed."
+  ],
+  "files": {
+    "BioMotifLab_English.docx": {
+      "bytes": 446025,
+      "sha256": "b40d9ae4273a9345be3b2e6cbf62ca6b57d89a37b7e61c24585e93ef79599519"
+    },
+    "BioMotifLab_English.pdf": {
+      "bytes": 957658,
+      "sha256": "287677e1104e0715dc4fc61b84573561a9e7d0e216eb0c5a5fa256e652bfabf1"
+    },
+    "BioMotifLab_English_source.txt": {
+      "bytes": 50578,
+      "sha256": "cc1ae145b831655ec73afdb4064b6b70892d667ab96eee22b474f9862dca2418"
+    }
+  }
+}

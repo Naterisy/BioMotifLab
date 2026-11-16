@@ -8,6 +8,13 @@ BioMotifLab 用可检查的 Python 实现研究一个具体问题：当不同序
 
 English: Transparent DNA motif discovery with sequence-specific shrinkage backgrounds, matched baselines, held-out permutation tests and reproducible experiments. The implemented model is **zero-order, two-strand OOPS**; this is an educational research implementation, not a replacement for MEME Suite.
 
+## 论文版本
+
+- 英文修订稿：[DOCX](paper/BioMotifLab_English.docx) · [PDF](paper/BioMotifLab_English.pdf)。标题、正文、图表说明和附录均为英文，修订了方法归因、复杂度与确定性初始化的表述，并补充更直接的背景建模文献。
+- 原中文稿：[DOCX](paper/BioMotifLab课程论文.docx) · [PDF](paper/BioMotifLab课程论文.pdf)，作为原始中文版本保留。
+- 英文词数与原课程要求的汉字数不可直接等同；英文版不声称满足原有中文摘要或汉字数规定。格式与版本说明见 [paper/README.md](paper/README.md)。
+- 两种公开版本均不包含学生身份；正式提交副本单独保存。语言修订没有改变算法或实验结果，也不会提升证据本身的强度。
+
 ## 功能
 
 - FASTA 读取、严格校验，接受 IUPAC 模糊碱基并转为 N，跳过含 N 的候选窗口。
@@ -62,7 +69,7 @@ biomotiflab data/example/train.fasta \
   --shrinkage 40 --seed 42 --shuffles 199 --out analysis/example
 ```
 
-输出 `analysis/example/results.json`、`report.md` 和 `logo.png`。也可使用 `python -m biomotiflab.cli`。只提供训练 FASTA 时执行发现与描述，不生成训练数据上的误导性显著性。相同序列同时出现于两组时程序报错；近重复、反向互补和同源序列仍需使用者在划分数据时排除。
+输出 `analysis/example/results.json`、`report.md` 和 `logo.png`。也可使用 `python -m biomotiflab.cli`。只提供训练 FASTA 时执行发现与描述，不生成训练数据上的误导性显著性。相同序列或完全反向互补序列同时出现于两组时程序报错；近重复和同源序列仍需使用者在划分数据时排除。
 
 ## 研究方法与贡献范围
 
@@ -78,6 +85,8 @@ score(window) = Σⱼ log(PWMⱼ,base / bᵢ,base)
 OOPS 假设每条训练序列恰有一个基序；每条序列的全部有效窗口及反向互补共同归一化责任度。四种方法使用相同数据与宽度，三种 EM 方法统一起点数上限、伪计数、停止规则。`kmer` 只输出一个候选词，不执行 EM。这里的 EM 是透明的简化实现，**没有运行外部 MEME/STREME 性能基准**，不能把结果表命名为 MEME 比较。
 
 候选覆盖分数采用 Poisson 近似，仅用于启发式排序，不能当作正式 p 值。正式检验在独立序列上保持单碱基计数打乱，保留 N 的位置，每次重新取双链最大窗口，计算 `(1 + 超越次数)/(B + 1)`。B=199 时最小可报告 p=0.005。BH 调整针对单个模型的这一组检验序列，不覆盖用户反复选择算法或宽度。
+
+局部背景及组成异质性处理在 Gibbs Recursive Sampler 与 NestedMICA 等既有研究中已有先例；本项目不把这些概念本身作为新颖性主张。
 
 完整的三方案比较、文献依据与选择理由见 [研究论证](docs/research.md)，已核验参考文献见 [references.json](docs/references.json)。
 

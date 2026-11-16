@@ -26,6 +26,8 @@ C 参照 DeepBind 的序列特异性学习思路，适合大规模实验数据�
 
 **选择 A。** 优先得到可核验的适用条件、失败案例及统计流程。最终实现采用零阶、链对称的逐序列收缩背景；一阶或更高阶模型仅作为后续扩展，不能写成已经实现。已有 BioProspector 与 MotifSampler 已研究高阶背景，Kim 等又讨论上下文，所以“自适应/Markov背景”这一大概念不具备本项目可主张的首创性。[4–6]
 
+进一步核查发现，比高阶Markov背景更直接的先例也早已存在：Thompson、Rouchka与Lawrence（2003）的Gibbs Recursive Sampler依据每条输入序列的组成异质性，通过贝叶斯分段生成位置特异背景；Down与Hubbard（2005）的NestedMICA采用多类mosaic背景，使不同类别具有不同碱基分布。[16–17] 两者并不等同于本项目的简单零阶收缩公式，但足以说明“以局部或序列特异背景处理GC异质性”不是本项目首次提出。现有检索也不能证明本项目具体公式与组合从未发表，因此不作全球新颖性主张。最可靠的贡献定位是独立实现、透明的受控比较、负结果分析与可复现教学平台；新增收缩和候选排序的额外精度收益尚未获消融支持。
+
 ## 算法贡献边界与对照
 
 实施模型为双链 OOPS：每条序列恰有一个候选位点；全部有效窗口与其反向互补共同参与潜在位点后验归一化。N 被保留，含 N 的窗口跳过，绝不能把未知碱基强行填成随机碱基。坐标统一为原始正链零基、右开区间，负链匹配单独给出 strand。
@@ -86,3 +88,7 @@ Sequence Logo 使用每列熵与字母频率表达模式，其基本思想已有
 
 [15] Alipanahi B, Delong A, Weirauch M T, Frey B J. Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning[J]. Nature Biotechnology, 2015, 33:831–838. DOI: [10.1038/nbt.3300](https://doi.org/10.1038/nbt.3300). [核验来源](https://www.nature.com/articles/nbt.3300)。
 
+
+[16] Thompson W, Rouchka E C, Lawrence C E. Gibbs Recursive Sampler: finding transcription factor binding sites[J]. Nucleic Acids Research, 2003, 31(13):3580–3585. DOI: [10.1093/nar/gkg608](https://doi.org/10.1093/nar/gkg608). [核验来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC169014/)。
+
+[17] Down T A, Hubbard T J P. NestedMICA: sensitive inference of over-represented motifs in nucleic acid sequence[J]. Nucleic Acids Research, 2005, 33(5):1445–1453. DOI: [10.1093/nar/gki282](https://doi.org/10.1093/nar/gki282). [核验来源](https://academic.oup.com/nar/article/33/5/1445/2543599)。

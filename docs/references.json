@@ -193,5 +193,32 @@
     "url": "https://www.nature.com/articles/nbt.3300",
     "verified_on": "2026-11-16",
     "use": "CNN候选路线及样本成本"
+  },
+  {
+    "id": "thompson2003",
+    "number": 16,
+    "authors": "Thompson W, Rouchka E C, Lawrence C E",
+    "title": "Gibbs Recursive Sampler: finding transcription factor binding sites",
+    "journal": "Nucleic Acids Research",
+    "year": 2003,
+    "volume_pages": "31(13):3580–3585",
+    "doi": "10.1093/nar/gkg608",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC169014/",
+    "metadata_url": "https://pubmed.ncbi.nlm.nih.gov/12824370/",
+    "verified_on": "2026-11-16",
+    "use": "既有异质背景先例：使用Bayesian segmentation，依据各输入序列组成及其不确定性构建位置特异背景；不能将逐序列/局部背景这一概念称为本项目原创。"
+  },
+  {
+    "id": "down2005",
+    "number": 17,
+    "authors": "Down T A, Hubbard T J P",
+    "title": "NestedMICA: sensitive inference of over-represented motifs in nucleic acid sequence",
+    "journal": "Nucleic Acids Research",
+    "year": 2005,
+    "volume_pages": "33(5):1445–1453",
+    "doi": "10.1093/nar/gki282",
+    "url": "https://academic.oup.com/nar/article/33/5/1445/2543599",
+    "verified_on": "2026-11-16",
+    "use": "既有多类mosaic背景，容许不同序列类别具有不同碱基分布；与本项目简单零阶收缩公式不等同，但直接限制组成异质性背景建模的原创主张。"
   }
 ]
